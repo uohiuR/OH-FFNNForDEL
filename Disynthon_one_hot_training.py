@@ -36,7 +36,7 @@ groupname = "py1355"
 
 
 def disynthon_train(dfpath, hidden_num, drop_rate, learning_rate, groupname, L1_rate, n_epochs, outpath):
-    class OnehotDEL(BaseEstimator, TransformerMixin):  # 继承父类
+    class OnehotDEL(BaseEstimator, TransformerMixin): 
         def __init__(self, a, b, c):
             self.a = a
             self.b = b
